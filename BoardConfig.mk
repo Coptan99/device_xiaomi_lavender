@@ -28,7 +28,7 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/lavender.config
+TARGET_KERNEL_CONFIG := lavender_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Manifest
